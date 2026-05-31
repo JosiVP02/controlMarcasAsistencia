@@ -107,3 +107,23 @@ Automated attendance analysis.
 Professional report generation.
 Reduced manual HR workload.
 Easy deployment and maintenance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
