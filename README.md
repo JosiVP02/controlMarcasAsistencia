@@ -1,129 +1,39 @@
-ControlMarcas - Attendance Control and Reporting System
-Overview
+📊 ControlMarcas
 
-ControlMarcas is a desktop application designed to automate employee attendance analysis, incident detection, and managerial reporting. The system processes clock-in and clock-out records from Excel files, identifies attendance irregularities, manages special schedules and justifications, and generates professional reports for Human Resources and administrative departments.
+Desktop application for employee attendance analysis, incident management, and managerial reporting.
 
-Built with React, Tauri, and SQLite, the application provides a lightweight, fast, and portable desktop solution that operates without requiring a dedicated server.
+Built with React, Tauri, and SQLite, providing a fast, portable, and fully offline solution for Human Resources attendance control.
 
-Features
-Attendance Processing
-Import attendance records from Excel files.
-Employee schedule management.
-Automatic attendance analysis by reporting period.
-Support for multiple employees and schedules.
-Incident Detection
-Late arrivals detection.
-Early departures detection.
-Missing clock-in/clock-out records.
-Unjustified absences.
-Justified absences.
-Special schedule management.
-Automatic incident classification.
-Report Generation
-Editable attendance and incident reports.
-Managerial summary reports.
-Employee attendance balance calculations.
-Daily attendance details.
-Incident filtering and selection.
-Report finalization and storage.
-Export Options
-PDF managerial reports.
-DOCX attendance and justification reports.
-Report history and retrieval.
-Re-download previously generated reports.
-Report Management
-Report archive and history.
-Report visualization.
-Report deletion.
-Report regeneration without reprocessing data.
-Technologies
+✨ Features
+Employee schedule management
+Excel attendance import
+Automatic attendance analysis
+Late arrivals and early departures detection
+Justified and unjustified absence management
+Special schedules and exceptions
+Attendance balance calculations
+Editable attendance reports
+PDF and DOCX report generation
+Historical report repository
+Report download and management
+🛠 Technologies
 Frontend
 React
 JavaScript
 Vite
 SweetAlert2
-Desktop Platform
+Desktop Application
 Tauri
 Database
-SQLite
-Data Processing
+SQLite (Local Portable Database)
+Reporting & Data Processing
 XLSX
 jsPDF
 jsPDF-AutoTable
 DOCX
-Database
-
-The application uses a local SQLite database stored on the user's machine.
-
-Main Tables
-Employees
-Schedules
-Reports
-
-The database is automatically created and managed by the application.
-
-Architecture
-Excel File
-      │
-      ▼
-Attendance Processing
-      │
-      ▼
-Incident Detection
-      │
-      ▼
-Attendance Analysis
-      │
-      ▼
-Managerial Summary
-      │
-      ▼
-PDF / DOCX Generation
-      │
-      ▼
-Report Storage
-Installation
-
-Clone the repository:
-
+FileSaver
+🚀 Installation
 git clone https://github.com/JosiVP02/controlMarcasAsistencia.git
-
-Install dependencies:
-
+cd controlMarcasAsistencia
 npm install
-
-Run the application:
-
 npm run tauri dev
-
-Build the desktop application:
-
-npm run tauri build
-Key Benefits
-Fully offline operation.
-Portable local database.
-Fast desktop performance.
-Automated attendance analysis.
-Professional report generation.
-Reduced manual HR workload.
-Easy deployment and maintenance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
