@@ -56,33 +56,6 @@ Local portable database automatically created on the user's machine.
 * DOCX
 * FileSaver
 
----
-
-## 📸 Screenshots
-
-### Attendance Processing
-
-![Attendance Processing](./src/assets/procesamiento.png)
-
----
-
-### Incident Management
-
-![Incidents](./src/assets/incidencias.png)
-
----
-
-### Managerial Summary
-
-![Managerial Summary](./src/assets/resumen.png)
-
----
-
-### Report Repository
-
-![Reports](./src/assets/reportes.png)
-
----
 
 ## 📂 Main Modules
 
