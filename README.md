@@ -117,18 +117,3 @@ Build the desktop application:
 ```bash
 npm run tauri build
 ```
-
----
-
-## 👨‍💻 Author
-
-**Josimar Vallejos Paniagua**
-
-Business Informatics Student
-University of Costa Rica
-
-GitHub:
-https://github.com/JosiVP02
-
-LinkedIn:
-https://www.linkedin.com/in/josimarVP02
